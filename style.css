@@ -1,0 +1,23 @@
+h1,
+h2 {
+  text-align: center;
+  font-family: "Courier New", courier, monospace;
+  color: rgb(69, 201, 16);
+}
+
+.cuadrado {
+  width: 100px;
+  height: 100px;
+  border-style: double;
+  border-color: rgb(52, 97, 16);
+}
+
+.cuadricula {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 320px;
+  height: 320;
+  margin: 10px auto;
+}
