@@ -14,14 +14,14 @@ function cuadradoazar {
      posiciontopo.posicionalazar.Id
 }
 cuadrado.forEach (identificador => { 
-  identificador.addEventListener("click" () => { 
+  identificador.addEventListener("click") () => { 
     if (identificador.Id === posiciontopo) { 
       resultado = resultado + 1;
       puntaje.textcontent = resultado;
       posiciontopo = null;
      }
-     });
- });
+     };
+ 
  function movertopo (){
    tiempotopo = setInterval (cuadradoazar,700);
  }
